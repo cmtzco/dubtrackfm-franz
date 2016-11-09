@@ -1,0 +1,24 @@
+{
+  "name": "dubtrackfm-franz",
+  "version": "1.0.0",
+  "description": "Franz plugin for Dubtrack.FM",
+  "main": "index.js",
+  "author": "Chris Martinez <chris@cmtz.co>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://dubtrack.fm/join/{teamID}",
+    "serviceName": "Dubtrack.FM",
+    "message": "Listen to music with friends",
+    "popup": [
+      "^https://www.facebook.com/v2.4/dialog/oauth?"
+    ],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": true,
+    "customURL": false,
+    "hasTeamID": true,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
